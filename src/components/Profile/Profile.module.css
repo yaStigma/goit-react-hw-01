@@ -3,7 +3,7 @@ img {
 }
 .profile {
   background-color: #fff;
-  width: 23vw;
+  width: 25vw;
   border-radius: 10px;
   border: 2px solid black;
 
@@ -27,10 +27,10 @@ img {
   margin-bottom: 10px;
 }
 .location {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .stats {
-  color: #333;
+  color: #000000;
   background-color: #939191;
   list-style: none;
 

@@ -11,7 +11,7 @@ import css from "./App.module.css";
 
 export default function App () {
   return (
-    <div>
+    <div className={css.container}>
       <Profile
         name={userData.username}
         tag={userData.tag}

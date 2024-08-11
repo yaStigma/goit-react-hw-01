@@ -1,21 +1,22 @@
-// import './components/App'
+import userData from "../userData.json";
+// import friends from "../friends.json";
+// import transactions from "../transactions.json";
+import Profile  from "./Profile/Profile";
+import css from "./App.module.css";
 
-// src/App.jsx
 
-// import Product from "./Product";
-import BookList from "./BookList";
-const favouriteBooks = [
-	{ id: "id-1", name: "JS for beginners" },
-	{ id: "id-2", name: "React basics" },
-	{ id: "id-3", name: "React Router overview" }
-  ];
-
-export default function App() {
-	return (
-		<>
-		  <h1>Books of the week</h1>
-		  <BookList books={favouriteBooks} />
-		</>
-	  );
-	};
-
+export default function App () {
+  return (
+    <div>
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
+      {/* <FriendList friends={friends} /> */}
+      {/* <TransactionHistory items={transactions} /> */}
+    </div>
+  );
+}

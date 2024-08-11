@@ -5,6 +5,7 @@
   list-style: none;
   background-color: #fff;
   color: #000;
+  width: 25vw;
 }
 .item {
   display: flex;

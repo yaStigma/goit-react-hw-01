@@ -1,0 +1,28 @@
+.transactionHistory {
+  margin-top: 30px;
+  color: black;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.transactionHistory thead {
+  background-color: rgba(21, 24, 24, 0.845);
+  height: 60px;
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid black;
+}
+
+.transactionHistory tbody tr {
+  height: 40px;
+  color: #797979;
+  text-transform: capitalize;
+  border: 2px solid black;
+}
+.transactionHistory th,
+.transactionHistory td {
+  border: 2px solid black;
+  padding: 10px;
+}
